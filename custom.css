@@ -1,0 +1,231 @@
+.wh_content_area {
+  display: flex;
+  justify-content: space-between; /* Space between columns */
+  width: 100%;
+}
+
+.text {
+  width: 75%;
+  margin-left: -7px; /* Optional: Adds space around each column */
+  color: white;
+}
+
+.shortdesc {
+  color: white;
+}
+
+/* Import grunge and tech-style fonts */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Share+Tech+Mono&display=swap');
+
+/* Remove background from body by default */
+body {
+  background-image: none;
+  background-color: #121212; /* fallback */
+  color: #e0e0e0;
+}
+
+/* Apply background only on homepage */
+body.wh_main_page {
+  background-image: url('images/grunge.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+/* Hide search bar only on homepage */
+div.wh_search_input.navbar-form.wh_main_page_search.search {
+  display: none !important;
+}
+
+div.wh_search_input.navbar-form.wh_topic_page_search.search {
+  display: none !important;
+}
+
+/* Sidebar (TOC) */
+#wh_toc {
+  background-color: rgba(0, 0, 0, 0.85);
+  color: #ccc;
+  border-right: 2px solid #2e2e2e;
+}
+
+#wh_toc a {
+  color: #87f3ff;
+  text-decoration: none;
+}
+
+#wh_toc a:hover {
+  color: #00e0ff;
+  text-shadow: 0 0 5px #00e0ff;
+}
+
+/* Main heading */
+h1, h2, h3 {
+  font-family: 'Orbitron', sans-serif;
+  color: #f9a825;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 1.5em;
+  border-bottom: 1px solid #333;
+  padding-bottom: 0.2em;
+}
+
+/* Table styling (e.g., for gear inventory) */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #222;
+  color: #ddd;
+  box-shadow: 0 0 10px #000;
+}
+
+th, td {
+  border: 1px solid #444;
+  padding: 0.75em;
+  text-align: left;
+}
+
+th {
+  background-color: #333;
+  color: #f9a825;
+}
+
+.deer {
+  border: 2px solid black !important;
+  padding: 2px !important;
+  background-color: #f9f9f9;
+  float: right;
+  margin-right: -240px;
+  margin-top: -360px;
+  width: 500px;
+}
+
+.asteroid {
+  border: 2px solid black !important;
+  padding: 2px !important;
+  background-color: #f9f9f9;
+  float: right;
+  margin-right: -240px;
+  margin-top: -416px;
+  width: 500px;
+}
+
+.hound {
+  border: 2px solid black !important;
+  padding: 2px !important;
+  background-color: #f9f9f9;
+  float: right;
+  margin-right: -240px;
+  margin-top: -635px;
+  width: 250px;
+}
+
+.bear {
+  border: 2px solid black !important;
+  padding: 2px !important;
+  background-color: #f9f9f9;
+  float: right;
+  margin-right: -240px;
+  margin-top: -435px;
+  width: 250px;
+}
+
+.from{
+  border: 2px solid black !important;
+  padding: 2px !important;
+  background-color: #f9f9f9;
+  float: right;
+  margin-right: -240px;
+  margin-top: -235px;
+  width: 250px;
+}
+
+
+.settlement {
+  border: 2px solid black !important;
+  padding: 2px !important;
+  background-color: #f9f9f9;
+  float: right;
+  margin-right: -240px;
+  margin-top: -615px;
+  width: 470px;
+}
+
+.job_1 {
+  border: 2px solid black !important;
+  padding: 2px !important;
+  background-color: #f9f9f9;
+  float: right;
+  margin-right: -240px;
+  margin-top: -1460px;
+  width: 400px;
+}
+
+.job_2 {
+  border: 2px solid black !important;
+  padding: 2px !important;
+  background-color: #f9f9f9;
+  float: right;
+  margin-right: -240px;
+  margin-top: -1060px;
+  width: 400px;
+}
+
+.job_3 {
+  border: 2px solid black !important;
+  padding: 2px !important;
+  background-color: #f9f9f9;
+  float: right;
+  margin-right: -240px;
+  margin-top: -660px;
+  width: 400px;
+}
+
+.nomads {
+  border: 2px solid black !important;
+  padding: 2px !important;
+  background-color: #f9f9f9;
+  float: right;
+  margin-right: -240px;
+  margin-top: -635px;
+  width: 500px;
+}
+
+.kit {
+  border: 2px solid black !important;
+  padding: 2px !important;
+  background-color: #f9f9f9;
+  float: right;
+  margin-right: -240px;
+  margin-top: -1055px;
+  width: 400px;
+}
+
+.nuclear {
+  border: 2px solid black !important;
+  padding: 2px !important;
+  background-color: #f9f9f9;
+  float: right;
+  margin-right: -240px;
+  margin-top: -850px;
+  width: 400px;
+}
+
+
+.large {
+  font-size: 1.5em;       /* Similar to an <h2> */
+  font-weight: bold;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  color: #f9a825;         /* Dark gray for readability */
+}
+
+li {
+    margin-bottom: 1em; /* Adjust spacing as needed */
+}
+
+nav.wh_tools.d-print-none {
+    background-color: #121212;
+    color: white;
