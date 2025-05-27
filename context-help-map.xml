@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+   <appContext helpID="what_are_mutants" path="what-are-mutants.html"/>
+   <appContext helpID="types_of_mutants" path="types-of-mutants.html"/>
+   <appContext helpID="mutation_causes" path="mutation-causes.html"/>
+   <appContext helpID="understanding_new_social_structures"
+               path="understanding-new-social-structures.html"/>
+   <appContext helpID="jobs_in_a_post_apocalyptic_world"
+               path="jobs-in-a-post-apocalyptic-world.html"/>
+   <appContext helpID="tips_for_a_nomadic_lifestyle"
+               path="tips-for-a-nomadic-lifestyle.html"/>
+   <appContext helpID="equipment_and_tools" path="equipment-and-tools.html"/>
+   <appContext helpID="essential_survival_skills"
+               path="essential-survival-skills.html"/>
+</map>
